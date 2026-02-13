@@ -53,7 +53,6 @@ rowCallback <- c(
 # Temporary solution: rename map sites as sites_map so previous site list is not overwritten
 # sites_map <- read_tsv(file = "https://raw.githubusercontent.com/rosiehoward/canflux-summary/refs/heads/main/Data/AmeriFlux-sites-Canadian-ForApp.tsv", show_col_types = FALSE)
 sites_map <- read_tsv(file = "https://raw.githubusercontent.com/rosiehoward/canflux-summary-map/refs/heads/main/Data/Canadian-Flux-Sites_DownloadedFromGoogleSheet13Feb2026_SiteswithLatLons.tsv", show_col_types = FALSE)
-#sites_map <- read_tsv(file = "https://raw.githubusercontent.com/rosiehoward/canflux-summary-map/refs/heads/main/Data/Canadian-Flux-Sites_DownloadedFromGoogleSheet10Nov2025_SiteswithLatLons.tsv", show_col_types = FALSE)
 
 # Filter to just sites in Canada
 #sites_map <- sites_map |> 
